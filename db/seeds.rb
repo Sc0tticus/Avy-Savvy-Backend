@@ -15,6 +15,7 @@ post3 = Post.create(description: "8 Mile Canyon Avalanche: 2-2-2020", imageLink:
 
 post3 = Post.create(description: "7 Mile Canyon Avalanche: 2-2-2020", imageLink: "https://ewscripps.brightspotcdn.com/dims4/default/717f971/2147483647/strip/true/crop/720x405+0+264/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F4d%2Fb0%2F542e38e14cb2ac12092fdab68aa1%2Favalanche-of-ten-mile-canyon.jpg",  user: scott)
 
-# Comment.create(description: "WOW", post: post1 )
-# Comment.create(description: "DUDE", post: post2 )
-# Comment.create(description: "Hell yeah", post: post3 )
+Comment.create(description: "WOW", post: post1 )
+Comment.create(description: "OH DAYUM", post: post1 )
+Comment.create(description: "DUDE", post: post2 )
+Comment.create(description: "Hell yeah", post: post3 )
